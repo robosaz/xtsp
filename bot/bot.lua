@@ -53,11 +53,13 @@ function create_config()
             "promote",
             "moderation",
             "commands"
-        },
+			"info"
+			"tosticker"	
+},
         enabled_lang = {
             "english_lang"
         },
-        our_id = {0},
+        our_id = {186280031},
         sudo_users = {our_id}
     }
     serialize_to_file(config, './data/config.lua')
